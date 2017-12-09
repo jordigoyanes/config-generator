@@ -1,0 +1,11 @@
+{
+    "user": "dfdffd",
+    "pass": "passsdsds",
+    "enableLandMarket":true,
+    "enableVillagerMarket":true,
+    "showScoreboard": true,
+    "villagerMarketTitle": "Market | Priced in bits",
+    "pricePerChunkSAT": 20000,
+    "marketSalesAccountID":"324343",
+    "landSalesAccountID":"232323254"
+}
