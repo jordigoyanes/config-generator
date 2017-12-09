@@ -5,3 +5,8 @@ Config file generator for the BitBlocks minecraft plugin
 
 
 Used with [Bitblocks](https://github.com/jordigoyanes/BitBlocks) plugin.
+
+Run locally:
+```
+npm install && npm run dev
+```
