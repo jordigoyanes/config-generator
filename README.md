@@ -2,7 +2,7 @@
 Config file generator for the BitBlocks minecraft plugin
 
 
-[Live working app:](http://config.netlify.com) 
+[Live working app](http://config.netlify.com) 
 
 
 Used with [Bitblocks](https://github.com/jordigoyanes/BitBlocks) plugin.
