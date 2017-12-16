@@ -45,7 +45,6 @@
               v-model="vmTitle"
               required
               :rules="fieldRule"
-
             ></v-text-field>
             <v-text-field
               label="Account ID for villager market sales (number)"
@@ -53,7 +52,6 @@
               :type="'number'"
               required
               :rules="fieldRule"
-
             ></v-text-field>
           </div>
           <div v-if="enableLM">
@@ -63,7 +61,6 @@
               :type="'number'"
               required
               :rules="fieldRule"
-              
             ></v-text-field>
             <v-text-field
               label="Account ID for land sales (number)"
@@ -71,7 +68,6 @@
               :type="'number'"
               required
               :rules="fieldRule"
-              
             ></v-text-field>
           </div>
           <v-btn
@@ -146,7 +142,7 @@ export default {
         "enableLandMarket":this.enableLM,
         "enableVillagerMarket":this.enableVM,
         "showScoreboard": this.showSB,
-        "villagerMarketTitle": this.villagerMarketTitle,
+        "villagerMarketTitle": this.vmTitle,
         "pricePerChunkSAT": parseInt(this.chunkPrice),
         "marketSalesAccountID": parseInt(this.villagerSalesID),
         "landSalesAccountID": parseInt(this.landSalesID)
