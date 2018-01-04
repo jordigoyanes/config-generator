@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-container dark grid-list-md text-xs-center>
-      <v-flex x12 >
+      <v-flex x12>
         <h1>Config file generator for Bitblocks.</h1>
         <p>This is the easy way to configure your Bitblocks plugin. Place the generated .json file in your server's root folder.</p>
         <v-form ref="form">
@@ -84,13 +84,12 @@
         <p>None of this information will be stored online. When you click download your browser generates your file automatically using your provided input.</p>
         <v-footer class="pa-3">
           <v-spacer></v-spacer>
-          <div>© Bitblocks. Made by <a href="https://github.com/jordigoyanes">Jordi Goyanes</a></div>
+          <div>© {{currentYear}} Bitblocks. Made by <a href="https://github.com/jordigoyanes">Jordi Goyanes</a></div>
         </v-footer>
       </v-flex>
     </v-container>
   </v-app>
 </template>
-
 <script>
 import axios from 'axios';
 export default {
@@ -169,6 +168,9 @@ export default {
       }else{
         return true;
       }
+    },
+    currentYear(){
+      return new Date().getFullYear();
     }
   },
   watch: {
