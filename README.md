@@ -1,11 +1,7 @@
 # config-generator
-Config file generator for the BitBlocks minecraft plugin
-
+Config file generator for the [BitBlocks minecraft plugin](https://github.com/jordigoyanes/BitBlocks)
 
 [Live working app](https://config.netlify.com) 
-
-
-Used with [Bitblocks](https://github.com/jordigoyanes/BitBlocks) plugin.
 
 Run locally:
 ```
