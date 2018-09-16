@@ -123,7 +123,7 @@ export default {
         this.isCheckingCreds = true;
         this.checkingMsg = "Loading..."
         var token = window.btoa(this.user + ':' + this.pass);
-       axios.get('https://galvanize-cors-proxy.herokuapp.com/https://api.rtwire.com/v1/mainnet/accounts/',{
+       axios.get('http://cors.io/?https://api.rtwire.com/v1/mainnet/accounts/',{
          headers:{
            "Authorization": `Basic ` + token
          }
